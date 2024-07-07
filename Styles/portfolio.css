@@ -3,11 +3,11 @@
 * {
     margin: 0 ;
     padding: 0;
-  
+    font-family: Open Sans;
 }
 /* shared style  */
 .open-sans-normal {
-  font-family: "Open Sans", sans-serif;
+  font-family: Open Sans, sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings:
@@ -157,7 +157,7 @@ main{
 
 
 .skil{
-    background-color: ;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -165,9 +165,9 @@ main{
     max-width: 267px;
     max-height: 500px;
     border-radius: 5px;
-margin-left: 20px;
-box-shadow: 0px 6px 50px 0px rgb(219, 214, 214);
-background: rgb(255, 255, 255);
+    margin-left: 20px;
+    box-shadow: 0px 6px 50px 0px rgb(219, 214, 214);
+    background: rgb(255, 255, 255);
 }
 .skil img{
     padding: 30px 193px 0px 30px;
@@ -197,3 +197,94 @@ background: rgb(255, 255, 255);
     letter-spacing: 0%;
     text-align: left;
 }
+.resume-container{
+    display: flex;
+    gap: 36px;
+   
+}
+.experience{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+}
+
+.resume-column-title{
+    padding: 20px;
+    color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 30px;
+font-weight: 700;
+line-height: 41px;
+letter-spacing: 0%;
+text-align: left;
+}
+.experience-title{
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.experience-sub-title{
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;  
+    margin-bottom: 20px;
+}
+.experience-description{
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.section-title {
+    margin-bottom:30px ;
+    color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 35px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+
+}
+.section-desc{
+    margin-bottom: 20px;
+    color: rgb(71, 71, 71);
+
+}
+.button-cv{
+   text-align: center;
+   margin:50px;
+}
+footer{
+    display: flex;
+    gap: 100px;    
+    padding: 130px 230px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"] ,
+footer input[type="email"] , footer textarea
+{
+    font-size: 16px;
+    display: block;
+    border: none;
+    width: 100%;
+    height: 54px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    padding: 10px 10px;
+    margin-bottom: 24px;
+}
+
