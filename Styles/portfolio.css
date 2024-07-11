@@ -288,3 +288,9 @@ footer input[type="email"] , footer textarea
     margin-bottom: 24px;
 }
 
+.btn-1{
+ width: 180px;
+}
+.btn-2{
+    margin-left: 20px;
+} 
