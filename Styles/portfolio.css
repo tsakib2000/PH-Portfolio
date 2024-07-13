@@ -50,6 +50,7 @@ main section{
    background-color:  rgb(255, 248, 243);
 }
 .Header{
+    background-image: url('../images/developer.png'),url('../images/header_bg.png');
     background-position: bottom left,bottom right;
     background-repeat: no-repeat;
 }
@@ -292,5 +293,53 @@ footer input[type="email"] , footer textarea
  width: 180px;
 }
 .btn-2{
+  
     margin-left: 20px;
 } 
+
+@media screen and (max-width:576px) {
+    .skill-container,.resume-container,.secondary-bg,.banner,nav ,ul {
+      
+       gap: 10px;     
+       flex-direction: column;
+    }
+    .skil{
+     margin: auto;
+       width: 100%;
+    }
+    footer , .about{
+       padding: 20px;
+    }
+    .footer-column{
+        width: 100%;
+     
+    }
+    footer input[type="text"] ,
+    footer input[type="email"] , footer textarea{
+        width: calc( 100% - 40px);
+
+    }
+    .about-items{
+        gap: 20px;
+        flex-direction: column;
+    }
+    .Header{
+       background-image: none;
+    }
+    .banner{
+        margin: 20px;
+    }
+    .banner-profile-pic{
+        width: 100%;
+    }
+    .banner-title{
+        font-size: 60px;
+    }
+   nav > ul{
+    gap: 10px;
+   }
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    
+}
