@@ -338,6 +338,9 @@ footer input[type="email"] , footer textarea
    nav > ul{
     gap: 10px;
    }
+   .btn-2{
+    margin-top: 10px;
+   }
 }
 
 @media screen and (min-width:576px) and (max-width:992px) {
