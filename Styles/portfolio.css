@@ -339,6 +339,8 @@ footer input[type="email"] , footer textarea
     gap: 10px;
    }
    .btn-2{
+    right: 20px;
+    position: relative;
     margin-top: 10px;
    }
 }
